@@ -1,11 +1,15 @@
+using System;
+
 namespace kata
 {
     public class StringCalculator
     {
         public int add(string empty)
         {
-            return 0;
-            //throw new System.NotImplementedException();
+            if (empty.Equals(""))
+                return 0;
+            
+            return Convert.ToInt32(empty); 
         }
     }
 }
