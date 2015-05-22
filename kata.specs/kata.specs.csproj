@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="when_two_number.cs" />
     <Compile Include="when_single_number.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="when_empty_string.cs" />
