@@ -4,7 +4,8 @@ namespace kata
     {
         public int add(string empty)
         {
-            throw new System.NotImplementedException();
+            return 0;
+            //throw new System.NotImplementedException();
         }
     }
 }
